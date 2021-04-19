@@ -2,6 +2,10 @@ window.onload = () => {
     'use strict';
 
     if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('./sw.js');
+        try {
+            const worker = await navigator.serviceWorker.register('./sw.js');
+        } catch (e) {
+            console.error(e.message);
+        }
     }
 }
