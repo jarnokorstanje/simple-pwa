@@ -7,6 +7,7 @@ var filesToCache = [
     './js/main.js',
     './fonts/open-sans-v18-latin-regular.woff2',
     './images/background.png',
+    './images/compass.svg',
 ];
 
 /* Start the service worker and cache all of the app's content */
