@@ -10,6 +10,7 @@ html,
   margin: 0;
   padding: 0;
   width: 100%;
+  background-image: url('../images/background.png');
 }
 
 /* Center the content in the browser window */
